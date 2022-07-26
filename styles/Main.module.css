@@ -1,0 +1,37 @@
+.home_section {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.home_section_description {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home_section_description {
+  line-height: 0px;
+}
+
+.image_container{
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+@media (min-width: 601px) {
+	.main {
+		padding-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+	}
+}
+
+@media (max-width: 600px) {
+  .home_section {
+    flex-direction: column;
+  }
+}
