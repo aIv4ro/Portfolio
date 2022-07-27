@@ -7,9 +7,8 @@ import { Title } from './title/Title'
 import { Project } from './project/Project'
 
 const projects = [
-  {image: "/conways-game.png", title: "Conway's game", description: "Se trata de un autómata celular cuyo algoritmo fue diseñado por John Conway"},
-  {image: "/conways-game.png", title: "Conway's game", description: "Se trata de un autómata celular cuyo algoritmo fue diseñado por John Conway"},
-  {image: "/conways-game.png", title: "Conway's game", description: "Se trata de un autómata celular cuyo algoritmo fue diseñado por John Conway"},
+  {image: "/conways-game.png", repository: "https://github.com/AlvaroG2", title: "Conway's game", description: "Se trata de un autómata celular cuyo algoritmo fue diseñado por John Conway"},
+  {image: "/deliicious.png", repository: "https://github.com/ModuloInterLunar", title: "Deliicious", description: "Una TPV creada durante mi curso de DAM junto a tres compañeros. Cuenta con una API Rest, una aplicación android hecha en JetpackCompose y una aplicación de escritorio hecha en .Net"},
 ]
 
 export function Main() {
@@ -34,10 +33,10 @@ export function Main() {
             </div>
             <div className={styles.links_container}>
               <Link href="https://github.com/AlvaroG2">
-                <a><FontAwesomeIcon icon={faGithub} size="2x" /></a>
+                <a><FontAwesomeIcon icon={faGithub} width="40px" height="40px" /></a>
               </Link>
               <Link href="https://github.com/AlvaroG2">
-                <a><FontAwesomeIcon icon={faLinkedin} size="2x" /></a>
+                <a><FontAwesomeIcon icon={faLinkedin} width="40px" height="40px" /></a>
               </Link>
             </div>
           </div>
@@ -49,8 +48,8 @@ export function Main() {
         <div className={styles.projects_container}>
           {
             projects.map(project => {
-              const {title, description} = project
-              return <Project key={title} title={title} description={description} />
+              const {title, description, image, repository} = project
+              return <Project key={title} repository={repository} image={image} title={title} description={description} />
             })
           }
         </div>
