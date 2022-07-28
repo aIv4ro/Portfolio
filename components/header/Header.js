@@ -9,14 +9,14 @@ export function Header() {
   const [menuClosed, setMenuClosed] = useState(true);
 
   const navItems = [
-    {name: "Home", id: "home"}, 
-    {name: "About", id: "about"}, 
-    {name: "Projects", id: "projects"},
-    {name: "Contact", id: "contact"}
+    {name: "Inicio", id: "home"}, 
+    {name: "Sobre mi", id: "about"}, 
+    {name: "Proyectos", id: "projects"},
+    {name: "Contacto", id: "contact"}
   ]
 
 	return (
-		<header className={styles.header}>
+		<header className={styles.header} id="header" >
       <div className={styles.image_wrapper}>
         <Image
           src="/favicon.ico"

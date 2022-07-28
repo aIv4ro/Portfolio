@@ -1,0 +1,14 @@
+.fab_container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  margin: 10px;
+  color: var(--link-hover-color);
+}
+
+@media (min-width: 601px) {
+	.fab_container {
+		display: none;
+	}
+}
