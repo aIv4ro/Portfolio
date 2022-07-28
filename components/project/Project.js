@@ -10,13 +10,13 @@ export function Project({ image = "", repository = "", title = "no title", descr
       <div className={styles.project_header}>
         <p>{title}</p>
         <Link href={repository}>
-          <a>
-            <FontAwesomeIcon className={styles.github_link} icon={faGithub} width="40px" height="40px" />
+          <a target="_blank">
+            <FontAwesomeIcon className={styles.github_link} icon={faGithub} size="2x" />
           </a>
         </Link>
       </div>
-      <Link href="https://github.com/AlvaroG2" target="_blank">
-        <a className={styles.project_link}>
+      <Link href="https://github.com/AlvaroG2">
+        <a className={styles.project_link} target="_blank">
           <div className={styles.project_image} style={{backgroundImage: `url('${image}')`}} />
           <div className={styles.project_description}> 
             {description}

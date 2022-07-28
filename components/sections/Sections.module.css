@@ -1,0 +1,13 @@
+.sections {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+@media (min-width: 601px) {
+	.sections {
+		padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+	}
+}

@@ -1,8 +1,9 @@
-import styles from '../styles/Header.module.css'
+import styles from './Header.module.css'
 import Image from 'next/image'
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 
 export function Header() {
   const [menuClosed, setMenuClosed] = useState(true);
@@ -35,9 +36,11 @@ export function Header() {
             navItems.map(navItem => {
               return (
                 <li className={styles.nav_item} key={navItem.id}>
-                  <a href={`#${navItem.id}`}>
-                    {navItem.name}
-                  </a>
+                  <Link href={`#${navItem.id}`} >
+                    <a>
+                      {navItem.name}
+                    </a>
+                  </Link>
                 </li>
               )
             })

@@ -1,0 +1,21 @@
+.footer {
+  border-top: 1px solid gray;
+  padding: 10px 0;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact_links {
+  display: flex;  
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact_links > * {
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.contact_links > *:hover {
+  color: var(--link-hover-color);
+}
