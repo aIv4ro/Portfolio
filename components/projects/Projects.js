@@ -5,7 +5,7 @@ import { Project } from '../project/Project'
 const projects = [
   {image: "/conways-game.png", repository: "https://github.com/AlvaroG2", title: "Conway's game", description: "Se trata de un autómata celular cuyo algoritmo fue diseñado por John Conway"},
   {image: "/deliicious.png", repository: "https://github.com/ModuloInterLunar", title: "Deliicious", description: "Una TPV creada durante mi curso de DAM junto a tres compañeros. Cuenta con una API Rest, una aplicación android hecha en JetpackCompose y una aplicación de escritorio hecha en .Net."},
-  {image: "/padel.png", repository: "https://github.com/Alvaro-Final-Proyect", title: "Software de instalación deportiva", description: "Un software que se encarga de gestionar las instalaciones deportivas de un centro de pádel. Cuenta con una aplicación hecha en flutter y con una API Rest."},
+  {image: "/padel.png", repository: "https://github.com/Alvaro-Final-Proyect", title: "Software de gestión deportiva", description: "Un software que se encarga de gestionar las instalaciones deportivas de un centro de pádel. Cuenta con una aplicación hecha en flutter y con una API Rest."},
 ]
 
 export function Projects() {

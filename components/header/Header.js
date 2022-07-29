@@ -12,7 +12,6 @@ export function Header() {
     {name: "Inicio", id: "home"}, 
     {name: "Sobre mi", id: "about"}, 
     {name: "Proyectos", id: "projects"},
-    {name: "Contacto", id: "contact"}
   ]
 
 	return (

@@ -1,14 +1,14 @@
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons"
 import styles from './Footer.module.css'
 
 export function Footer() {
   const onEmailClick = () => window.open('mailto:alvaromagu2002@gmail.com')
 
   return (
-    <footer id="contact" className={styles.footer}>
+    <footer className={styles.footer}>
       <div className={styles.contact_links}>
         <FontAwesomeIcon icon={faEnvelope} size="2x" onClick={onEmailClick} />
         <Link href="https://github.com/AlvaroG2">
@@ -22,6 +22,7 @@ export function Footer() {
           </a>
         </Link>
       </div>
+      <p className={styles.location}>Benidorm, Espa&ntilde;a</p>
     </footer>
   )
 }

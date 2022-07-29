@@ -13,11 +13,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 5px;
 }
 
 .home_section_description p {
-  line-height: 0px;
   font-size: 30px;
+  margin: 0;
+  padding: 5px;
 }
 
 .image_container{
