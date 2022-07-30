@@ -28,12 +28,12 @@ export function Home() {
           </div>
           <div className={styles.links_container}>
             <FontAwesomeIcon icon={faEnvelope} onClick={onEmailClick} size="2x" />
-            <Link href="https://github.com/AlvaroG2">
+            <Link href="https://github.com/aIv4ro">
               <a target="_blank">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
             </Link>
-            <Link href="https://github.com/AlvaroG2">
+            <Link href="https://github.com/aIv4ro">
               <a target="_blank">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>

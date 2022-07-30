@@ -11,12 +11,12 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.contact_links}>
         <FontAwesomeIcon icon={faEnvelope} size="2x" onClick={onEmailClick} />
-        <Link href="https://github.com/AlvaroG2">
+        <Link href="https://github.com/aIv4ro">
           <a target="_blank">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
         </Link>
-        <Link href="https://github.com/AlvaroG2">
+        <Link href="https://github.com/aIv4ro">
           <a target="_blank">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
