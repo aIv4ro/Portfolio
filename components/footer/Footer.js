@@ -16,7 +16,7 @@ export function Footer() {
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
         </Link>
-        <Link href="https://github.com/aIv4ro">
+        <Link href="https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADnez-guti%C3%A9rrez-a5835b247">
           <a target="_blank">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>

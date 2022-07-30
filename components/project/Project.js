@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 
-export function Project({ image = "", repository = "", title = "no title", description = "no description" } = {}) {
+export function Project({ image = "", repository = "", title = "no title", description = "no description", web = undefined } = {}) {
   return (
     <div className={styles.project_container}>
       <div className={styles.project_header}>
@@ -15,7 +15,7 @@ export function Project({ image = "", repository = "", title = "no title", descr
           </a>
         </Link>
       </div>
-      <Link href={repository}>
+      <Link href={web ? web : repository}>
         <a className={styles.project_link} target="_blank">
           <div className={styles.project_image} style={{backgroundImage: `url('${image}')`}} />
           <div className={styles.project_description}> 
