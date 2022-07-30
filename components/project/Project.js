@@ -10,7 +10,7 @@ export function Project({ image = "", repository = "", title = "no title", descr
       <div className={styles.project_header}>
         <p>{title}</p>
         <Link href={repository}>
-          <a target="_blank">
+          <a target="_blank" className={styles.project_repository}>
             <FontAwesomeIcon className={styles.github_link} icon={faGithub} size="2x" />
           </a>
         </Link>
