@@ -24,7 +24,7 @@ export function Home() {
         </div>
         <div className={styles.home_section_other_info}>
           <div className={styles.image_container}>
-            <Image alt="alvaro martinez gutierrez" src="/alvaro.jpg" width="250px" height="250px" />
+            <Image alt="alvaro martinez gutierrez" src="/alvaro.png" width="250px" height="250px" />
           </div>
           <div className={styles.links_container}>
             <FontAwesomeIcon icon={faEnvelope} onClick={onEmailClick} size="2x" />

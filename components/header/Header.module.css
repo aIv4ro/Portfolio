@@ -14,9 +14,9 @@
   z-index: 999;
 }
 
-.image_wrapper {
-  display: flex;
-  align-items: center;
+.header p {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .nav {
