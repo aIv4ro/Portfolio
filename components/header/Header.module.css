@@ -10,7 +10,7 @@
   left: 0;
   max-width: var(--max-width);
   margin: auto;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(10px);
   z-index: 999;
 }
 

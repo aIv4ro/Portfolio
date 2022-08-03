@@ -12,7 +12,7 @@ export function Header() {
     {name: "Inicio", id: "home", link: "#home"}, 
     {name: "Sobre mi", id: "about", link: "#about"}, 
     {name: "Proyectos", id: "projects", link: "#projects"},
-    {name: "CV", id: "cv", link: "/cv.pdf"},
+    {name: "Curriculum", id: "cv", link: "/cv.pdf"},
   ]
 
 	return (

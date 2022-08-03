@@ -24,6 +24,13 @@ a {
   --background-color: #f4f4f9;
   --text-color: black;
   --link-hover-color: #00b4d8;
+  --secondary-color: #e5e5e5;
+  /*
+    --background-color: #395B64;
+    --text-color: white;
+    --link-hover-color: #00b4d8;
+    --secondary-color: #2C3333;
+  */
 }
 
 ::-webkit-scrollbar {

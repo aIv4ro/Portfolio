@@ -12,11 +12,10 @@ export function About() {
         <p>
           Durante el curso he adquirido conocimientos para el desarrollo frontend y backend.
           <br />
-          Por la parte frontend he aprendido a desarrollar aplicaciones con Android Views, 
-          Jetpack Compose y Flutter, y por la parte backend he aprendido a desarrollar servidores 
-          con Express.
+          Por la parte frontend he aprendido a desarrollar aplicaciones con Jetpack Compose 
+          y Flutter, y por la parte backend he aprendido a desarrollar servidores con Express.
           <br />
-          Además, por mi cuenta he ido aprendiendo otras tecnologías como React o Next.js. 
+          Además, por mi cuenta he ido aprendiendo algunas tecnologías web como React. 
         </p>
         <p>
           Me considero una persona con facilidad para el aprendizaje y con ganas de
@@ -24,7 +23,7 @@ export function About() {
         </p>
         <p>
           Por último, decir que, aunque tenga más experiencia desarrollando aplicaciones Android, también estoy
-          muy interesado en el desarrollo backend y el desarrollo web.
+          muy interesado en el desarrollo backend.
         </p>
       </div>
     </section>
