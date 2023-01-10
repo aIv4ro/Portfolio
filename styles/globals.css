@@ -21,16 +21,15 @@ a {
 :root {
   --header-size: 50px;
   --max-width: 1000px;
-  --background-color: #f4f4f9;
+  /*--background-color: #f4f4f9;
   --text-color: black;
   --link-hover-color: #00b4d8;
-  --secondary-color: #e5e5e5;
-  /*
-    --background-color: #395B64;
-    --text-color: white;
-    --link-hover-color: #00b4d8;
-    --secondary-color: #2C3333;
-  */
+  --secondary-color: #e5e5e5;*/
+  --background-color: #1c1c1c;
+  --text-color: #e4e4e2;
+  --link-hover-color: #00b4d8;
+  --secondary-color: #2C3333;
+  
 }
 
 ::-webkit-scrollbar {

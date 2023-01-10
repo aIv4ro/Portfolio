@@ -24,7 +24,11 @@
 
 .image_container{
   border-radius: 50%;
-  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  background-image: url('/alvaro.png');
+  background-position: center;
+  background-size: cover;
   animation: fadeIn 3s ease;
 }
 

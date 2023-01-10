@@ -15,7 +15,7 @@ export function Project({ image = "", repository = "", title = "no title", descr
           </a>
         </Link>
       </div>
-      <Link href={web ? web : repository}>
+      <Link href={web ?? repository}>
         <a className={styles.project_link} target="_blank">
           <div className={styles.project_image} style={{backgroundImage: `url('${image}')`}} />
           <div className={styles.project_description}> 
